@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Video Gallery | Destination STEM</title>
+<style type="text/css">
+#videoframe {
+	padding-top: 20px;
+	padding-bottom: 35px;
+	height: 260px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<link rel="stylesheet" href="css/main.css" type="text/css">
+<link rel="stylesheet" href="prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+<script src="prettyPhoto/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+<div id="container">
+  <div id="nav">
+   <table>
+    <tr>
+    <td style="width:125px"><a href="index.html">home</a></td>
+    <td style="width:125px"><a href="camps.html">camps</a></td>
+    <td style="width:125px"><a href="faq.html">faq</a></td>
+    <td style="width:125px"><a href="sponsors.html">sponsors</a></td>
+    <td style="width:125px"><a href="contact.html">contact</a></td>
+    </tr>
+   </table>
+  </div>
+  <div id="content">
+  <p><strong>Video Gallery</strong></p>
+  <div id="videoframe">
+    <a href="http://www.youtube.com/watch?v=GrxnB_sCI64&rel=0;showinfo=0" rel="prettyPhoto"><img src="images/video2013.png" width="366" height="260" class="fltlft" /></a>
+    <a href="http://www.youtube.com/watch?v=Gg6UxVavPOQ&rel=0;showinfo=0" rel="prettyPhoto"><img src="images/video2012.png" width="366" height="260" class="fltrt" /></a>
+  </div>
+  <script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto({allow_resize: false, default_width: 640, default_height: 360, social_tools: false});
+  });
+</script>
+  </div>
+  <div id="footer">
+    <p>Copyright &copy;2011-2014. Destination STEM. All rights reserved.</p>
+  </div>
+</div>
+</body>
+</html>
